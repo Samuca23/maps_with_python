@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_67991cd0f762cd4c642309350df1af25 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_67991cd0f762cd4c642309350df1af25" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_67991cd0f762cd4c642309350df1af25 = L.map(
+                "map_67991cd0f762cd4c642309350df1af25",
+                {
+                    center: [-27.2107, -49.6442],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1d8b934a0e890091d1735bc05078527d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1d8b934a0e890091d1735bc05078527d.addTo(map_67991cd0f762cd4c642309350df1af25);
+        
+    
+            var marker_75e8b466918fe8e7f9b56a9a6902dc7e = L.marker(
+                [-27.2157, -49.6452],
+                {}
+            ).addTo(map_67991cd0f762cd4c642309350df1af25);
+        
+    
+            var icon_89e0bed8609bd7adb1c388a223aee4fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_75e8b466918fe8e7f9b56a9a6902dc7e.setIcon(icon_89e0bed8609bd7adb1c388a223aee4fb);
+        
+    
+        var popup_cfa1b556e343966cdd088c470c4cde93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d063453ef76c1aed29517caf13e443c5 = $(`<div id="html_d063453ef76c1aed29517caf13e443c5" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Centro<br><strong>Total:</strong> 2</div>`)[0];
+                popup_cfa1b556e343966cdd088c470c4cde93.setContent(html_d063453ef76c1aed29517caf13e443c5);
+            
+        
+
+        marker_75e8b466918fe8e7f9b56a9a6902dc7e.bindPopup(popup_cfa1b556e343966cdd088c470c4cde93)
+        ;
+
+        
+    
+    
+            var marker_3484e353316e7818e77be36e49d88d6d = L.marker(
+                [-27.215, -49.646],
+                {}
+            ).addTo(map_67991cd0f762cd4c642309350df1af25);
+        
+    
+            var icon_5cca213b5b13848d7a1efeb5ec0568f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3484e353316e7818e77be36e49d88d6d.setIcon(icon_5cca213b5b13848d7a1efeb5ec0568f5);
+        
+    
+        var popup_8ecb43c3910417925125db9c875134c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b693ce619870c1c962886f02f84ffeff = $(`<div id="html_b693ce619870c1c962886f02f84ffeff" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Centro<br><strong>Total:</strong> 2</div>`)[0];
+                popup_8ecb43c3910417925125db9c875134c4.setContent(html_b693ce619870c1c962886f02f84ffeff);
+            
+        
+
+        marker_3484e353316e7818e77be36e49d88d6d.bindPopup(popup_8ecb43c3910417925125db9c875134c4)
+        ;
+
+        
+    
+    
+            var marker_2e6954313360f94c6e6e3d4975c8c976 = L.marker(
+                [-27.2118, -49.6439],
+                {}
+            ).addTo(map_67991cd0f762cd4c642309350df1af25);
+        
+    
+            var icon_d2d309528d44a7b9a4d86aca0b1882d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e6954313360f94c6e6e3d4975c8c976.setIcon(icon_d2d309528d44a7b9a4d86aca0b1882d1);
+        
+    
+        var popup_e5c3c8dff849e41fb78b3e6999a664f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9906032faac0052f4e226fbe50353a3f = $(`<div id="html_9906032faac0052f4e226fbe50353a3f" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Jardim América<br><strong>Total:</strong> 4</div>`)[0];
+                popup_e5c3c8dff849e41fb78b3e6999a664f6.setContent(html_9906032faac0052f4e226fbe50353a3f);
+            
+        
+
+        marker_2e6954313360f94c6e6e3d4975c8c976.bindPopup(popup_e5c3c8dff849e41fb78b3e6999a664f6)
+        ;
+
+        
+    
+    
+            var marker_678cf2691da62ba0d97cede3a73c0ec0 = L.marker(
+                [-27.2092, -49.6422],
+                {}
+            ).addTo(map_67991cd0f762cd4c642309350df1af25);
+        
+    
+            var icon_b53c110274fbc97f57a35f3a94016d1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_678cf2691da62ba0d97cede3a73c0ec0.setIcon(icon_b53c110274fbc97f57a35f3a94016d1c);
+        
+    
+        var popup_e9b61fd6c81afaeb6ef80034f79ff280 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16155d347a7cf39c2c54d9258e6c04e8 = $(`<div id="html_16155d347a7cf39c2c54d9258e6c04e8" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Jardim América<br><strong>Total:</strong> 4</div>`)[0];
+                popup_e9b61fd6c81afaeb6ef80034f79ff280.setContent(html_16155d347a7cf39c2c54d9258e6c04e8);
+            
+        
+
+        marker_678cf2691da62ba0d97cede3a73c0ec0.bindPopup(popup_e9b61fd6c81afaeb6ef80034f79ff280)
+        ;
+
+        
+    
+    
+            var marker_d4d42528bf64eb64a0e41f30d358c432 = L.marker(
+                [-27.2095, -49.6425],
+                {}
+            ).addTo(map_67991cd0f762cd4c642309350df1af25);
+        
+    
+            var icon_3d103a7d3a43902d33b39500df19ed82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d4d42528bf64eb64a0e41f30d358c432.setIcon(icon_3d103a7d3a43902d33b39500df19ed82);
+        
+    
+        var popup_36cfd1b00cfd5a55a2499cfe14c121a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcc62cdc5ab74a7d34e1a3973ec4144b = $(`<div id="html_dcc62cdc5ab74a7d34e1a3973ec4144b" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Jardim América<br><strong>Total:</strong> 4</div>`)[0];
+                popup_36cfd1b00cfd5a55a2499cfe14c121a2.setContent(html_dcc62cdc5ab74a7d34e1a3973ec4144b);
+            
+        
+
+        marker_d4d42528bf64eb64a0e41f30d358c432.bindPopup(popup_36cfd1b00cfd5a55a2499cfe14c121a2)
+        ;
+
+        
+    
+    
+            var marker_f75f277e8240c18ed3340540f43be5d6 = L.marker(
+                [-27.209, -49.642],
+                {}
+            ).addTo(map_67991cd0f762cd4c642309350df1af25);
+        
+    
+            var icon_acec11062dbef5e22f17f6d83cb8eedf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f75f277e8240c18ed3340540f43be5d6.setIcon(icon_acec11062dbef5e22f17f6d83cb8eedf);
+        
+    
+        var popup_c43b2182a096fc5f4b47fbdad906d8bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2c3bf15c8ae8a3d6cca37bff22994b0 = $(`<div id="html_f2c3bf15c8ae8a3d6cca37bff22994b0" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Jardim América<br><strong>Total:</strong> 4</div>`)[0];
+                popup_c43b2182a096fc5f4b47fbdad906d8bf.setContent(html_f2c3bf15c8ae8a3d6cca37bff22994b0);
+            
+        
+
+        marker_f75f277e8240c18ed3340540f43be5d6.bindPopup(popup_c43b2182a096fc5f4b47fbdad906d8bf)
+        ;
+
+        
+    
+</script>
+</html>
