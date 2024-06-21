@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_817ce60c3fb91c4b2c2270e9fd095265 {
+                #map_4bcccdb2f4ef2f8915ca0978db1adb58 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,28 @@
 <body>
     
     
-            <div class="folium-map" id="map_817ce60c3fb91c4b2c2270e9fd095265" ></div>
+     <div style="
+     position: fixed; 
+     bottom: 50px; left: 50px; width: 200px; height: 90px; 
+     background-color: white; z-index:9999; font-size:14px;
+     border:2px solid grey; padding: 10px;">
+     <b>Legenda:</b><br>
+     <i class="fa fa-map-marker fa-2x" style="color:#cc3b28"></i>&nbsp; Centro<br>
+     <i class="fa fa-map-marker fa-2x" style="color:#36a5d7"></i>&nbsp; Jardim América
+     </div>
+     
+    
+             <h3 align="center" style="font-size:20px"><b>Mapa de Bairros</b></h3>
+             
+    
+            <div class="folium-map" id="map_4bcccdb2f4ef2f8915ca0978db1adb58" ></div>
         
 </body>
 <script>
     
     
-            var map_817ce60c3fb91c4b2c2270e9fd095265 = L.map(
-                "map_817ce60c3fb91c4b2c2270e9fd095265",
+            var map_4bcccdb2f4ef2f8915ca0978db1adb58 = L.map(
+                "map_4bcccdb2f4ef2f8915ca0978db1adb58",
                 {
                     center: [-27.2107, -49.6442],
                     crs: L.CRS.EPSG3857,
@@ -60,172 +74,172 @@
 
         
     
-            var tile_layer_195e1702acdfb2e54e0aef0e9b22dd6a = L.tileLayer(
+            var tile_layer_6dd3871b19b395ac69248a1890b0dc6c = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_195e1702acdfb2e54e0aef0e9b22dd6a.addTo(map_817ce60c3fb91c4b2c2270e9fd095265);
+            tile_layer_6dd3871b19b395ac69248a1890b0dc6c.addTo(map_4bcccdb2f4ef2f8915ca0978db1adb58);
         
     
-            var marker_ece126c5d073456c8ce1d2691784f17b = L.marker(
+            var marker_1fe0454deb80024159fba4a3844ce774 = L.marker(
                 [-27.2157, -49.6452],
                 {}
-            ).addTo(map_817ce60c3fb91c4b2c2270e9fd095265);
+            ).addTo(map_4bcccdb2f4ef2f8915ca0978db1adb58);
         
     
-            var icon_7076bf03ab9e72b86e5f053635da1164 = L.AwesomeMarkers.icon(
+            var icon_83675222b399386d8abec2e87554c383 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_ece126c5d073456c8ce1d2691784f17b.setIcon(icon_7076bf03ab9e72b86e5f053635da1164);
+            marker_1fe0454deb80024159fba4a3844ce774.setIcon(icon_83675222b399386d8abec2e87554c383);
         
     
-        var popup_e3e563c17246a1629075eae837dd8b54 = L.popup({"maxWidth": "100%"});
+        var popup_440025b39996d4c315c998a827b90e96 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_913d1558aa46d1f91c4bb5d51f965f3e = $(`<div id="html_913d1558aa46d1f91c4bb5d51f965f3e" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Centro<br><strong>Total:</strong> 2</div>`)[0];
-                popup_e3e563c17246a1629075eae837dd8b54.setContent(html_913d1558aa46d1f91c4bb5d51f965f3e);
+                var html_8daa2f47622ca9caa420d629c936a97d = $(`<div id="html_8daa2f47622ca9caa420d629c936a97d" style="width: 100.0%; height: 100.0%;"><strong>Código:</strong>45</div>`)[0];
+                popup_440025b39996d4c315c998a827b90e96.setContent(html_8daa2f47622ca9caa420d629c936a97d);
             
         
 
-        marker_ece126c5d073456c8ce1d2691784f17b.bindPopup(popup_e3e563c17246a1629075eae837dd8b54)
+        marker_1fe0454deb80024159fba4a3844ce774.bindPopup(popup_440025b39996d4c315c998a827b90e96)
         ;
 
         
     
     
-            var marker_09a75ba40228517822ca2b36e3fc2ba5 = L.marker(
+            var marker_e57f2f11492859c8e5999156df8ed175 = L.marker(
                 [-27.215, -49.646],
                 {}
-            ).addTo(map_817ce60c3fb91c4b2c2270e9fd095265);
+            ).addTo(map_4bcccdb2f4ef2f8915ca0978db1adb58);
         
     
-            var icon_e54e10ea1a88372a4cb33d04bb9466ec = L.AwesomeMarkers.icon(
+            var icon_6e7a4204c89f40f8e9d01c399e871ef0 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_09a75ba40228517822ca2b36e3fc2ba5.setIcon(icon_e54e10ea1a88372a4cb33d04bb9466ec);
+            marker_e57f2f11492859c8e5999156df8ed175.setIcon(icon_6e7a4204c89f40f8e9d01c399e871ef0);
         
     
-        var popup_6a7afffe933946911211760311e93926 = L.popup({"maxWidth": "100%"});
+        var popup_189bef5bd6b953e9917ce7188232d318 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_ce5063829bc12e9678b79a17e220c22a = $(`<div id="html_ce5063829bc12e9678b79a17e220c22a" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Centro<br><strong>Total:</strong> 2</div>`)[0];
-                popup_6a7afffe933946911211760311e93926.setContent(html_ce5063829bc12e9678b79a17e220c22a);
+                var html_37809279d4b790f95e52b44209a9797b = $(`<div id="html_37809279d4b790f95e52b44209a9797b" style="width: 100.0%; height: 100.0%;"><strong>Código:</strong>45</div>`)[0];
+                popup_189bef5bd6b953e9917ce7188232d318.setContent(html_37809279d4b790f95e52b44209a9797b);
             
         
 
-        marker_09a75ba40228517822ca2b36e3fc2ba5.bindPopup(popup_6a7afffe933946911211760311e93926)
+        marker_e57f2f11492859c8e5999156df8ed175.bindPopup(popup_189bef5bd6b953e9917ce7188232d318)
         ;
 
         
     
     
-            var marker_b515b50c8ef1f5cd39ad7bc8ef9346d6 = L.marker(
+            var marker_10c734fed663eaa0bce3ccf19dbcf8b7 = L.marker(
                 [-27.2118, -49.6439],
                 {}
-            ).addTo(map_817ce60c3fb91c4b2c2270e9fd095265);
+            ).addTo(map_4bcccdb2f4ef2f8915ca0978db1adb58);
         
     
-            var icon_55e009ea81dcf64c5188cc426131eb32 = L.AwesomeMarkers.icon(
+            var icon_201578342fce01882250738c88f735ad = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_b515b50c8ef1f5cd39ad7bc8ef9346d6.setIcon(icon_55e009ea81dcf64c5188cc426131eb32);
+            marker_10c734fed663eaa0bce3ccf19dbcf8b7.setIcon(icon_201578342fce01882250738c88f735ad);
         
     
-        var popup_b457da72e75d90a9900de004dcc51ca3 = L.popup({"maxWidth": "100%"});
+        var popup_13411cf0dcf1445b7017202082cb8e48 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_fb8bcbe933a84c2091fa160c72502568 = $(`<div id="html_fb8bcbe933a84c2091fa160c72502568" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Jardim América<br><strong>Total:</strong> 4</div>`)[0];
-                popup_b457da72e75d90a9900de004dcc51ca3.setContent(html_fb8bcbe933a84c2091fa160c72502568);
+                var html_8797ac63262a7b3710c6ea7e62a46eaa = $(`<div id="html_8797ac63262a7b3710c6ea7e62a46eaa" style="width: 100.0%; height: 100.0%;"><strong>Código:</strong>45</div>`)[0];
+                popup_13411cf0dcf1445b7017202082cb8e48.setContent(html_8797ac63262a7b3710c6ea7e62a46eaa);
             
         
 
-        marker_b515b50c8ef1f5cd39ad7bc8ef9346d6.bindPopup(popup_b457da72e75d90a9900de004dcc51ca3)
+        marker_10c734fed663eaa0bce3ccf19dbcf8b7.bindPopup(popup_13411cf0dcf1445b7017202082cb8e48)
         ;
 
         
     
     
-            var marker_741161b3434bd38329ad00dcad43c0ca = L.marker(
+            var marker_36c6d082a114a2d79377cb562295943d = L.marker(
                 [-27.2092, -49.6422],
                 {}
-            ).addTo(map_817ce60c3fb91c4b2c2270e9fd095265);
+            ).addTo(map_4bcccdb2f4ef2f8915ca0978db1adb58);
         
     
-            var icon_8a015af3409ce5377a68721395299ed2 = L.AwesomeMarkers.icon(
+            var icon_be45ecbeb72678290e98639c240c3fc7 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_741161b3434bd38329ad00dcad43c0ca.setIcon(icon_8a015af3409ce5377a68721395299ed2);
+            marker_36c6d082a114a2d79377cb562295943d.setIcon(icon_be45ecbeb72678290e98639c240c3fc7);
         
     
-        var popup_b31c375fa8f7229fc10bc8e5e14531d9 = L.popup({"maxWidth": "100%"});
+        var popup_446e4c9a8bb201f49436f20d27cc989c = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_cb3e5f95c025082c45c512d308a999e6 = $(`<div id="html_cb3e5f95c025082c45c512d308a999e6" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Jardim América<br><strong>Total:</strong> 4</div>`)[0];
-                popup_b31c375fa8f7229fc10bc8e5e14531d9.setContent(html_cb3e5f95c025082c45c512d308a999e6);
+                var html_f98e7a03a26faf332bad9dce8e51b854 = $(`<div id="html_f98e7a03a26faf332bad9dce8e51b854" style="width: 100.0%; height: 100.0%;"><strong>Código:</strong>45</div>`)[0];
+                popup_446e4c9a8bb201f49436f20d27cc989c.setContent(html_f98e7a03a26faf332bad9dce8e51b854);
             
         
 
-        marker_741161b3434bd38329ad00dcad43c0ca.bindPopup(popup_b31c375fa8f7229fc10bc8e5e14531d9)
+        marker_36c6d082a114a2d79377cb562295943d.bindPopup(popup_446e4c9a8bb201f49436f20d27cc989c)
         ;
 
         
     
     
-            var marker_e04e4872ee267a3413cfe376ee277e52 = L.marker(
+            var marker_153397adcbe18ea6e5acc6fda565e9b4 = L.marker(
                 [-27.2095, -49.6425],
                 {}
-            ).addTo(map_817ce60c3fb91c4b2c2270e9fd095265);
+            ).addTo(map_4bcccdb2f4ef2f8915ca0978db1adb58);
         
     
-            var icon_f1a1cc6302bcd88cd9c838ba62bc6053 = L.AwesomeMarkers.icon(
+            var icon_a4a902430b0021836b2ae0b0ac150484 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_e04e4872ee267a3413cfe376ee277e52.setIcon(icon_f1a1cc6302bcd88cd9c838ba62bc6053);
+            marker_153397adcbe18ea6e5acc6fda565e9b4.setIcon(icon_a4a902430b0021836b2ae0b0ac150484);
         
     
-        var popup_dea062d904dc4df26fc9d8774fb408eb = L.popup({"maxWidth": "100%"});
+        var popup_dd4f351b2182c197793f05901989536c = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_3961434a85ae20f2ffc0611b6955a0d8 = $(`<div id="html_3961434a85ae20f2ffc0611b6955a0d8" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Jardim América<br><strong>Total:</strong> 4</div>`)[0];
-                popup_dea062d904dc4df26fc9d8774fb408eb.setContent(html_3961434a85ae20f2ffc0611b6955a0d8);
+                var html_c610e23e7f015da159150c427f1bbd1d = $(`<div id="html_c610e23e7f015da159150c427f1bbd1d" style="width: 100.0%; height: 100.0%;"><strong>Código:</strong>45</div>`)[0];
+                popup_dd4f351b2182c197793f05901989536c.setContent(html_c610e23e7f015da159150c427f1bbd1d);
             
         
 
-        marker_e04e4872ee267a3413cfe376ee277e52.bindPopup(popup_dea062d904dc4df26fc9d8774fb408eb)
+        marker_153397adcbe18ea6e5acc6fda565e9b4.bindPopup(popup_dd4f351b2182c197793f05901989536c)
         ;
 
         
     
     
-            var marker_6b347483bb90299641a2c4bcf99a1c48 = L.marker(
+            var marker_024956363de4f4e23ea2f6a07a2cc00a = L.marker(
                 [-27.209, -49.642],
                 {}
-            ).addTo(map_817ce60c3fb91c4b2c2270e9fd095265);
+            ).addTo(map_4bcccdb2f4ef2f8915ca0978db1adb58);
         
     
-            var icon_3ca94cc685a0e9bb393561a9f213a4d5 = L.AwesomeMarkers.icon(
+            var icon_8ee5f353d9f5fb9ee962ff01bb697032 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_6b347483bb90299641a2c4bcf99a1c48.setIcon(icon_3ca94cc685a0e9bb393561a9f213a4d5);
+            marker_024956363de4f4e23ea2f6a07a2cc00a.setIcon(icon_8ee5f353d9f5fb9ee962ff01bb697032);
         
     
-        var popup_0aef16d2101f8865e8c2a6202bc8d045 = L.popup({"maxWidth": "100%"});
+        var popup_5d060c7eb845701ba59b74da7c85e67f = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_222e838552b2d9865d844c2c2bd6753e = $(`<div id="html_222e838552b2d9865d844c2c2bd6753e" style="width: 100.0%; height: 100.0%;"><strong>Bairro:</strong> Jardim América<br><strong>Total:</strong> 4</div>`)[0];
-                popup_0aef16d2101f8865e8c2a6202bc8d045.setContent(html_222e838552b2d9865d844c2c2bd6753e);
+                var html_974d08cf36fb03cb22864b01b10c5148 = $(`<div id="html_974d08cf36fb03cb22864b01b10c5148" style="width: 100.0%; height: 100.0%;"><strong>Código:</strong>45</div>`)[0];
+                popup_5d060c7eb845701ba59b74da7c85e67f.setContent(html_974d08cf36fb03cb22864b01b10c5148);
             
         
 
-        marker_6b347483bb90299641a2c4bcf99a1c48.bindPopup(popup_0aef16d2101f8865e8c2a6202bc8d045)
+        marker_024956363de4f4e23ea2f6a07a2cc00a.bindPopup(popup_5d060c7eb845701ba59b74da7c85e67f)
         ;
 
         
