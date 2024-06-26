@@ -1,17 +1,18 @@
 import folium
 
-mapa = folium.Map(location=[-27.2107, -49.6442], zoom_start=14)
+mapa = folium.Map(location=[-27.2111, -49.6470], zoom_start=13)
 
 bairros = {
     'Centro': [
-        (-27.2157, -49.6452),
-        (-27.2150, -49.6460)
+        (-27.2157, -49.6452, 23),
+        (-27.2150, -49.6460, 25)
     ],
     'Jardim América': [
-        (-27.2118, -49.6439),
-        (-27.2092, -49.6422),
-        (-27.2095, -49.6425),
-        (-27.2090, -49.6420)
+        (-27.2118, -49.6439, 1),
+        (-27.2092, -49.6422, 2),
+        (-27.2095, -49.6425, 3),
+        (-27.2090, -49.6420, 4),
+        (-27.219122, -49.645725, 5)
     ]
 }
 
@@ -19,16 +20,15 @@ for bairro, coords in bairros.items():
     if bairro == 'Centro':
         icon_color = 'red'  
     elif bairro == 'Jardim América':
-        icon_color = 'blue'  
+        icon_color = 'black'  
 
-    for lat, lon in coords:
+    for lat, lon, cod in coords:
         folium.Marker(
             location=[lat, lon],
-            popup=f'<strong>Código:</strong>45',
+            popup=f'<strong>Código:</strong>{cod}',
             icon=folium.Icon(color=icon_color)  
         ).add_to(mapa)
 
-# Adiciona uma legenda personalizada
 legend_html = '''
      <div style="
      position: fixed; 
