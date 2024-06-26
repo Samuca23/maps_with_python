@@ -4,15 +4,15 @@ mapa = folium.Map(location=[-27.2111, -49.6470], zoom_start=13)
 
 bairros = {
     'Centro': [
-        (-27.2157, -49.6452, 23),
-        (-27.2150, -49.6460, 25)
+        (-27.2157, -49.6452, 23, "Rua sete de setembro"),
+        (-27.2150, -49.6460, 25, "Rua sete de setembro")
     ],
     'Jardim América': [
-        (-27.2118, -49.6439, 1),
-        (-27.2092, -49.6422, 2),
-        (-27.2095, -49.6425, 3),
-        (-27.2090, -49.6420, 4),
-        (-27.219122, -49.645725, 5)
+        (-27.2118, -49.6439, 1, "Rua sete de setembro"),
+        (-27.2092, -49.6422, 2, "Rua sete de setembro"),
+        (-27.2095, -49.6425, 3, "Rua sete de setembro"),
+        (-27.2090, -49.6420, 4, "Rua sete de setembro"),
+        (-27.219122, -49.645725, 5, "Rua sete de setembro")
     ]
 }
 
@@ -22,10 +22,10 @@ for bairro, coords in bairros.items():
     elif bairro == 'Jardim América':
         icon_color = 'black'  
 
-    for lat, lon, cod in coords:
+    for lat, lon, cod, rua in coords:
         folium.Marker(
             location=[lat, lon],
-            popup=f'<strong>Código:</strong>{cod}',
+            popup=f'<strong>Código:</strong>{cod} RUA:{rua}',
             icon=folium.Icon(color=icon_color)  
         ).add_to(mapa)
 
