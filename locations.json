@@ -1,0 +1,48 @@
+{
+    "Centro": [
+        {
+            "latitude": -27.2157,
+            "longitude": -49.6452,
+            "number": 23,
+            "address": "Rua sete de setembro"
+        },
+        {
+            "latitude": -27.2150,
+            "longitude": -49.6460,
+            "number": 25,
+            "address": "Rua sete de setembro"
+        }
+    ],
+    "Jardim América": [
+        {
+            "latitude": -27.2118,
+            "longitude": -49.6439,
+            "number": 1,
+            "address": "Rua sete de setembro"
+        },
+        {
+            "latitude": -27.2092,
+            "longitude": -49.6422,
+            "number": 2,
+            "address": "Rua sete de setembro"
+        },
+        {
+            "latitude": -27.2095,
+            "longitude": -49.6425,
+            "number": 3,
+            "address": "Rua sete de setembro"
+        },
+        {
+            "latitude": -27.2090,
+            "longitude": -49.6420,
+            "number": 4,
+            "address": "Rua sete de setembro"
+        },
+        {
+            "latitude": -27.219122,
+            "longitude": -49.645725,
+            "number": 5,
+            "address": "Rua sete de setembro"
+        }
+    ]
+}

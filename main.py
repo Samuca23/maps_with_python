@@ -1,32 +1,24 @@
 import folium
+import json
 
 mapa = folium.Map(location=[-27.2111, -49.6470], zoom_start=13)
 
-bairros = {
-    'Centro': [
-        (-27.2157, -49.6452, 23, "Rua sete de setembro"),
-        (-27.2150, -49.6460, 25, "Rua sete de setembro")
-    ],
-    'Jardim América': [
-        (-27.2118, -49.6439, 1, "Rua sete de setembro"),
-        (-27.2092, -49.6422, 2, "Rua sete de setembro"),
-        (-27.2095, -49.6425, 3, "Rua sete de setembro"),
-        (-27.2090, -49.6420, 4, "Rua sete de setembro"),
-        (-27.219122, -49.645725, 5, "Rua sete de setembro")
-    ]
-}
+with open('locations.json', 'r') as file:
+    bairros = json.load(file)
 
 for bairro, coords in bairros.items():
-    if bairro == 'Centro':
-        icon_color = 'red'  
-    elif bairro == 'Jardim América':
-        icon_color = 'black'  
+    icon_color = 'red' if bairro == 'Centro' else 'black'
 
-    for lat, lon, cod, rua in coords:
+    for coord in coords:
+        lat = coord['latitude']
+        lon = coord['longitude']
+        cod = coord['number']
+        rua = coord['address']
+        
         folium.Marker(
             location=[lat, lon],
-            popup=f'<strong>Código:</strong>{cod} RUA:{rua}',
-            icon=folium.Icon(color=icon_color)  
+            popup=f'<strong>Código:</strong> {cod} RUA: {rua}',
+            icon=folium.Icon(color=icon_color)
         ).add_to(mapa)
 
 legend_html = '''
@@ -47,5 +39,4 @@ title_html = '''
              '''
 mapa.get_root().html.add_child(folium.Element(title_html))
 
-# Salva o mapa
 mapa.save('mapa_com_pontos.html')
