@@ -1,48 +1,30 @@
 {
-    "Centro": [
+    "Agronômica": [
         {
-            "latitude": -27.2157,
-            "longitude": -49.6452,
-            "number": 23,
-            "address": "Rua sete de setembro"
+            "id": 44,
+            "latitude": -27.278164,
+            "longitude": -49.732418,
+            "address": "Valada Gropp"
         },
         {
-            "latitude": -27.2150,
-            "longitude": -49.6460,
-            "number": 25,
-            "address": "Rua sete de setembro"
+            "id": 76,
+            "latitude": -27.272924,
+            "longitude": -49.715703,
+            "address": "Rua Expedicionário Leopoldo Venturi"
         }
     ],
     "Jardim América": [
         {
-            "latitude": -27.2118,
-            "longitude": -49.6439,
-            "number": 1,
-            "address": "Rua sete de setembro"
+            "id": 25,
+            "latitude": -27.208919,
+            "longitude": -49.634356,
+            "address": "Alameda Bela Aliança, 1211"
         },
         {
+            "id": 58,
             "latitude": -27.2092,
             "longitude": -49.6422,
-            "number": 2,
-            "address": "Rua sete de setembro"
-        },
-        {
-            "latitude": -27.2095,
-            "longitude": -49.6425,
-            "number": 3,
-            "address": "Rua sete de setembro"
-        },
-        {
-            "latitude": -27.2090,
-            "longitude": -49.6420,
-            "number": 4,
-            "address": "Rua sete de setembro"
-        },
-        {
-            "latitude": -27.219122,
-            "longitude": -49.645725,
-            "number": 5,
-            "address": "Rua sete de setembro"
+            "address": "Rua Bulção Viana 1228 "
         }
     ]
 }
