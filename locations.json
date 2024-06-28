@@ -11,6 +11,26 @@
             "latitude": -27.272924,
             "longitude": -49.715703,
             "address": "Rua Expedicionário Leopoldo Venturi"
+        },
+        {
+            "id": 7,
+            "latitude": -27.279354,
+            "longitude": -49.732443,
+            "address": "Valada Gropp"
+        }
+    ],
+    "Albertina": [
+        {
+            "id": 26,
+            "latitude": -27.263669,
+            "longitude": -49.641723,
+            "address": "Estrada Geral Albertina, s/n"
+        },
+        {
+            "id": 4,
+            "latitude": -27.263251,
+            "longitude": -49.642310,
+            "address": "Estrada Geral Albertina, s/n"
         }
     ],
     "Jardim América": [
