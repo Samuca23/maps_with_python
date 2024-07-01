@@ -33,6 +33,112 @@
             "address": "Estrada Geral Albertina, s/n"
         }
     ],
+    "Barra do Trombudo": [
+        {
+            "id": 46,
+            "latitude": -27.251041,
+            "longitude": -49.690771,
+            "address": "Rua Rio do Oeste"
+        },
+        {
+            "id": 50,
+            "latitude": -27.253391,
+            "longitude": -49.692456,
+            "address": "Clemente Demarch, 01"
+        },
+        {
+            "id": 52,
+            "latitude": -27.247098,
+            "longitude": -49.694443,
+            "address": "Rua Pedro Avielino dos Santos, 16"
+        },
+        {
+            "id": 57,
+            "latitude": -27.246879,
+            "longitude": -49.694497,
+            "address": "Rua Pedro Avielino dos Santos, 16"
+        },
+        {
+            "id": 79,
+            "latitude": -27.257800,
+            "longitude": -49.697000,
+            "address": "Kuiz Demarch, 197"
+        },
+        {
+            "id": 6,
+            "latitude": -27.251228,
+            "longitude": -49.690983,
+            "address": "Rua Clemente Demarchi, 3788"
+        },
+        {
+            "id": "JC",
+            "latitude": -27.258376,
+            "longitude": -49.696721,
+            "address": "COND. Bela Vista"
+        },
+        {
+            "id": "LJ",
+            "latitude": -27.250135,
+            "longitude": -49.690848,
+            "address": "Rua Rio do Oeste, s/n"
+        },
+        {
+            "id": 15,
+            "latitude": -27.251092,
+            "longitude": -49.690920,
+            "address": "Rua Clemente Demarchi, 3788"
+        }
+    ],
+    "Barragem": [
+        {
+            "id": 11,
+            "latitude": -27.235011,
+            "longitude": -49.668104,
+            "address": "Rua Alberto Schutz, 100/1"
+        },
+        {
+            "id": 17,
+            "latitude": -27.234114,
+            "longitude": -49.667514,
+            "address": "Alberto Schutz, s/n"
+        },
+        {
+            "id": 22,
+            "latitude": -27.233283,
+            "longitude": -49.667330,
+            "address": "Rua Roberto Schutz, s/n"
+        },
+        {
+            "id": 30,
+            "latitude": -27.236444,
+            "longitude": -49.672464,
+            "address": "Rua Curitibanos, 2244"
+        },
+        {
+            "id": 31,
+            "latitude": -27.234957,
+            "longitude": -49.668291,
+            "address": "Beco Lebon Regis, 97"
+        },
+        {
+            "id": 2,
+            "latitude": -27.236740,
+            "longitude": -49.669814,
+            "address": "Alberto Schutz, 100/1"
+        },
+        {
+            "id": 47,
+            "latitude": -27.237631,
+            "longitude": -49.674497,
+            "address": "Rua Curitibanos, 2240"
+        },
+        {
+            "id": 5,
+            "latitude": -27.236046,
+            "longitude": -49.672419,
+            "address": "Rua Curitibanos, 2240"
+        }
+    ],
     "Jardim América": [
         {
             "id": 25,

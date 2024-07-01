@@ -18,7 +18,7 @@ for bairro, coords in bairros.items():
         icon_color = '#fff'
     elif bairro == 'Barragem':
         circle_color = '#ffd966'
-        icon_color = '#000'
+        icon_color = '#fff'
     elif bairro == 'Bela Aliança':
         circle_color = '#3c78d8'
         icon_color = '#fff'
