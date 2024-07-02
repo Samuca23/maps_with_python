@@ -139,6 +139,138 @@
             "address": "Rua Curitibanos, 2240"
         }
     ],
+    "Bela Aliança": [
+        {
+            "id": 27,
+            "latitude": -27.197932,
+            "longitude": -49.573963,
+            "address": "Rua Roberto Pinheiro, 119"
+        },
+        {
+            "id": 32,
+            "latitude": -27.188110,
+            "longitude": -49.588139,
+            "address": "Rua Luciana Maria Toggweiler, s/n"
+        },
+        {
+            "id": 45,
+            "latitude": -27.197454,
+            "longitude": -49.573107,
+            "address": "Rua Riberto Pinheiro, 179 "
+        },
+        {
+            "id": 55,
+            "latitude": -27.188323,
+            "longitude": -49.589369,
+            "address": "Rua Arnaldo Wertzow, 105"
+        },
+        {
+            "id": 8,
+            "latitude": -27.188160,
+            "longitude": -49.588742,
+            "address": "Rua Luciana Maria Toggweiler, 9369"
+        }
+    ],
+    "Boa Vista": [
+        {
+            "id": 13,
+            "latitude": -27.224409,
+            "longitude": -49.635062,
+            "address": "Rua Emma Carolina Dias Américo, 100"
+        }
+    ],
+    "Bremer": [
+        {
+            "id": 60,
+            "latitude": -27.193597,
+            "longitude": -49.600416,
+            "address": "Rua Antonice José Poleza, 214"
+        }
+    ],
+    "Budag": [
+        {
+            "id": 40,
+            "latitude": -27.224393,
+            "longitude": -49.662249,
+            "address": "Rua Engenheiro. Odebrech, 96"
+        }
+    ],
+    "Canoas": [
+        {
+            "id": 28,
+            "latitude": -27.219698,
+            "longitude": -49.653022,
+            "address": "Rua Imperatriz Leopoldina, 127"
+        },
+        {
+            "id": 43,
+            "latitude": -27.219590,
+            "longitude": -49.652436,
+            "address": "Rua Imperatriz Leopoldin, 60"
+        },
+        {
+            "id": 67,
+            "latitude": -27.219630,
+            "longitude": -49.652612,
+            "address": "Rua Imperatriz Leopoldin, 60"
+        },
+        {
+            "id": 3,
+            "latitude": -27.219951,
+            "longitude": -49.652756,
+            "address": "Rua Adolfo Konder, 83"
+        }
+    ],
+    "Canta Galo": [
+        {
+            "id": 23,
+            "latitude": -27.206436,
+            "longitude": -49.633792,
+            "address": "Rua Jacó Finardi, 1054"
+        },
+        {
+            "id": 39,
+            "latitude": -27.208625,
+            "longitude": -49.649068,
+            "address": "Rua Venceslau Borini, 354"
+        },
+        {
+            "id": 62,
+            "latitude": -27.201958,
+            "longitude": -49.640471,
+            "address": "Rua massaranduba, 316"
+        }
+    ],
+    "Eugênio Schneider": [
+        {
+            "id": 56,
+            "latitude": -27.223663,
+            "longitude": -49.638696,
+            "address": "Rua Porto Alegre, 204"
+        }
+    ],
+    "Fundo Canoas": [
+        {
+            "id": 24,
+            "latitude": -27.199735,
+            "longitude": -49.668330,
+            "address": "Rua Arthur Rabitzch, 248"
+        },
+        {
+            "id": 41,
+            "latitude": -27.199013,
+            "longitude": -49.668464,
+            "address": "Rua Arthur Rabitzch, 248"
+        }
+    ],
+    "Itoupava": [
+        {
+            "id": 71,
+            "latitude": -27.165463,
+            "longitude": -49.644798,
+            "address": "Rua Expedicionário Aleandro Stedile, 10"
+        }
+    ],
     "Jardim América": [
         {
             "id": 25,
@@ -148,9 +280,157 @@
         },
         {
             "id": 58,
-            "latitude": -27.2092,
-            "longitude": -49.6422,
+            "latitude": -27.208759,
+            "longitude": -49.635663,
             "address": "Rua Bulção Viana 1228 "
+        }
+    ],
+    "Laranjeiras": [
+        {
+            "id": 16,
+            "latitude": -27.235326,
+            "longitude":  -49.639736,
+            "address": "Rua São Joaquim, 520"
+        },
+        {
+            "id": 48,
+            "latitude": -27.219101,
+            "longitude": -49.645717,
+            "address": "Rua Quinze de Novembro, 54"
+        },
+        {
+            "id": 9,
+            "latitude": -27.235311,
+            "longitude": -49.639866,
+            "address": "Rua São Joaquim, 5200"
+        }
+    ],
+    "Laurentino": [
+        {
+            "id": 77,
+            "latitude": -27.234878,
+            "longitude": -49.736849,
+            "address": "Rua Maria Polini Zanis, 144"
+        }
+    ],
+    "Navegantes": [
+        {
+            "id": 18,
+            "latitude": -27.190089,
+            "longitude": -49.606548,
+            "address": "Rua do Escultor, 120"
+        },
+        {
+            "id": 42,
+            "latitude": -27.188997,
+            "longitude": -49.606564,
+            "address": "Rua do Escultor, 249"
+        },
+        {
+            "id": 54,
+            "latitude": -27.190089,
+            "longitude": -49.606548,
+            "address": "Rua do Escultor, 120"
+        }
+    ],
+    "Pamplona": [
+        {
+            "id": 82,
+            "latitude": -27.223608,
+            "longitude": -49.668587,
+            "address": "Rua Biguaçu, 47"
+        }
+    ],
+    "Progresso": [
+        {
+            "id": 53,
+            "latitude": -27.212819,
+            "longitude": -49.660400,
+            "address": "Rua São Bento, 14"
+        },
+        {
+            "id": 88,
+            "latitude": -27.212555,
+            "longitude": -49.657537,
+            "address": "Rua Nafalda Lindner Porto, 235"
+        }
+    ],
+    "Rainha": [
+        {
+            "id": 38,
+            "latitude": -27.184681,
+            "longitude": -49.583190,
+            "address": "Rua Leopoldo Krth, 260"
+        },
+        {
+            "id": 51,
+            "latitude": -27.182143,
+            "longitude": -49.583404,
+            "address": "Rua Leopoldo Krth, 580"
+        },
+        {
+            "id": "MS",
+            "latitude": -27.184517,
+            "longitude": -49.582841,
+            "address": "Rua Leopoldo Krth, 260"
+        }
+    ],
+    "Santa Clara": [
+        {
+            "id": 49,
+            "latitude": -27.238249,
+            "longitude": -49.636191,
+            "address": "Rua dos Pampas s/n"
+        }
+    ],
+    "Sumaré": [
+        {
+            "id": 19,
+            "latitude": -27.225146,
+            "longitude": -49.647915,
+            "address": "Rua Ruy Barbosa, 573"
+        },
+        {
+            "id": 29,
+            "latitude": -27.23437,
+            "longitude": -49.64861,
+            "address": "Beco José João Dias, 93"
+        },
+        {
+            "id": 34,
+            "latitude": -27.224899,
+            "longitude": -49.647817,
+            "address": "Rua Ruy Barbosa, 573"
+        },
+        {
+            "id": 59,
+            "latitude": -27.223694,
+            "longitude": -49.648017,
+            "address": "Rua Ruy Barbosa, 573"
+        },
+        {
+            "id": 69,
+            "latitude": -27.225375,
+            "longitude": -49.647935,
+            "address": "Rua Ruy Barbosa, 611"
+        },
+        {
+            "id": 70,
+            "latitude": -27.224696,
+            "longitude": -49.647997,
+            "address": "Rua Ruy Barbosa, 573"
+        },
+        {
+            "id": 78,
+            "latitude": -27.224508,
+            "longitude": -49.647920,
+            "address": "Rua Ruy Barbosa, 573"
+        },
+        {
+            "id": 89,
+            "latitude": -27.225608,
+            "longitude": -49.647874,
+            "address": "Rua Ruy Barbosa, 611"
         }
     ]
 }
